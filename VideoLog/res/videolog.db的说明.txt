@@ -1,0 +1,13 @@
+videolog.db的创建语句 
+"CREATE TABLE videos(id INTEGER PRIMARY KEY AUTOINCREMENT,name varchar(50),\
+		picture varchar(50),autor varchar(50),time varchar(20),explain varchar(512))";
+
+
+改成
+CREATE TABLE videos(id INTEGER PRIMARY KEY AUTOINCREMENT,
+			imageURL varchr(255),\
+			videoName varchar(50),\
+			autor varchar(50),\
+			time varchar(20),\
+			videoURL varchar(255),\
+			explain varchar(512));

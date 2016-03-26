@@ -1,0 +1,15 @@
+;网络部分，都是本地字节序，读取后要自己转成网络字节序
+[NetWork]
+ServerIP=121.199.24.119
+ServerLogPort=345
+ServicesPort=567
+
+;本地配置
+[Local]
+VideoPath=res\videos\
+ImagePath=res\images\
+
+
+;用户相关配置
+[User]
+UserName=史马超
